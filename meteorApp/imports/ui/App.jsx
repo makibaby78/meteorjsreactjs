@@ -3,7 +3,7 @@ import XO from './XO'
 
 export const App = () => (
   <div>
-    <h1>Let's play TikTak Toe!</h1>
+    <h1>Let's play TikTakToe!</h1>
     <XO />
   </div>
 );
