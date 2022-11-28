@@ -41,7 +41,7 @@ function XO() {
             newBoxes[0]==='X'&&newBoxes[4]==='X'&&newBoxes[8]==='X'||
             newBoxes[2]==='X'&&newBoxes[4]==='X'&&newBoxes[6]==='X'){
                 setHide("show")
-                setWintext("Player X win's")
+                setWintext("Player X win")
                 setXscore(xScore+1)
             }else if(newBoxes[0]==='O'&&newBoxes[1]==='O'&&newBoxes[2]==='O'||
             newBoxes[3]==='O'&&newBoxes[4]==='O'&&newBoxes[5]==='O'||
@@ -52,7 +52,7 @@ function XO() {
             newBoxes[0]==='O'&&newBoxes[4]==='O'&&newBoxes[8]==='O'||
             newBoxes[2]==='O'&&newBoxes[4]==='O'&&newBoxes[6]==='O'){
                 setHide("show");
-                setWintext("Player O win's")
+                setWintext("Player O win")
                 setOscore(oScore+1)
             }
             if(boxCounter===9){
