@@ -1,0 +1,22 @@
+.xo-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33.333333333%);
+    grid-template-rows: repeat(auto-fit, 33.333333333%);
+    grid-row: 3;
+    font-weight: 600;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    font-size: 50px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+h1{
+    text-align: center;
+}
