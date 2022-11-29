@@ -54,13 +54,10 @@ function XO() {
                 setHide("show");
                 setWintext("Player O win")
                 setOscore(oScore+1)
-            }
-            if(boxCounter===9){
+            }else if(boxCounter===9){
                 setHide("show");
                 setWintext("Draw")
                 console.log("box is full")
-            }else{
-                console.log("box is filled " + boxCounter)
             }
         }else{
             console.log("box has a value already")
